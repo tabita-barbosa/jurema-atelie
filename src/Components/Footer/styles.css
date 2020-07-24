@@ -1,0 +1,20 @@
+.container{
+    background-color: rgb(243, 231, 217);
+    max-width: unset;
+}
+
+.icones{
+    width: 40px;
+    height: 40px;
+}
+
+.text-center{
+    padding-top: 0.5em;
+    font-weight: normal;
+}
+
+.texto-rodape{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0 auto;
+}

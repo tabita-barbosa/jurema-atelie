@@ -1,0 +1,21 @@
+.navbar{
+    background-color: rgb(243, 231, 217);
+}
+
+.navbar-light .nav-brand, .navbar-light .navbar-nav .nav-link{
+    color: rgb(170, 63, 55);
+}
+
+.nav-brand{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav-item :hover{
+    color: black;
+}
+
+.nav-item{
+    padding: 0px 30px 0px 30px;
+    font-weight: bold;
+}

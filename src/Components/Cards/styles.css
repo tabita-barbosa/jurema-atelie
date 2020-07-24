@@ -1,0 +1,34 @@
+.card-deck{
+    margin: 1px 0px;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+}
+
+.card {
+    align-items: center;
+    border-radius: 15px;
+}
+
+.card-img-top{
+    width: 80%; 
+    border-radius: 20px;
+    margin: 0.4em auto 0.3em auto;
+}
+
+.card-body{
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.card-subtitle{
+    font-size: 0.9em;
+}
+
+.card-text{
+    font-size: 0.9em;
+}

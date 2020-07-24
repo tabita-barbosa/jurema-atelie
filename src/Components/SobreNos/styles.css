@@ -1,0 +1,44 @@
+.sobre-titulo{
+    color: rgb(170, 63, 55);
+    font-style: italic bold;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.sobre-texto{
+    color: rgb(170, 63, 55);
+    padding: 1.5em;
+    font-style: italic;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.sobre-imagem{
+    width: 90%;
+    max-width: 20em;
+    max-height: 20em;
+    border-radius: 15px;
+    margin-top: 2em;
+    display: block;
+    margin: 0 auto;
+}
+
+.div-sobre{
+    justify-content: center !important;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.logo-jurema{
+    width: 20%;
+    margin: 2em;
+}
+
+@media(max-width: 768px){
+    .logo-jurema{
+        width: 30%;
+    }
+    .div-sobre{
+        flex-direction: column;
+    }
+}

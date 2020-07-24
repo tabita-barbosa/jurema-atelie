@@ -1,0 +1,20 @@
+.carousel-control-prev,.carousel-control-next {
+    cursor:pointer;
+}
+
+.carousel-item {
+    font-size: 0.9em;
+    padding: 5em 6em 4em 6em;
+    color: rgb(170, 63, 55);
+}
+
+.carousel{
+    background-color: rgb(243, 231, 217);
+    min-height: 40vh;
+}
+
+@media (max-width: 750px){
+    .carousel-inner {
+      min-height: 45vh;
+    }
+}
