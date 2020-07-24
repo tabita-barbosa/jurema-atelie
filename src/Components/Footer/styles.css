@@ -13,6 +13,10 @@
     font-weight: normal;
 }
 
+.h5{
+    color: rgb(170, 63, 55);
+}
+
 .texto-rodape{
     text-align: center;
     font-size: 0.8em;
