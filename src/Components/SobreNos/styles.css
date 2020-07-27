@@ -1,16 +1,15 @@
 .sobre-titulo{
     color: rgb(170, 63, 55);
-    font-style: italic bold;
+    font-style: italic;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .sobre-texto{
     color: rgb(170, 63, 55);
-    padding: 1.5em;
     font-style: italic;
     text-align: justify;
-    font-size: 1.2em;
+    margin-right: auto;
 }
 
 .sobre-imagem{
@@ -24,12 +23,14 @@
 }
 
 .div-sobre{
-    justify-content: center !important;
+    justify-content: center;
     align-items: center;
     padding: 1.5em;
 }
 
 .logo-jurema{
+    justify-content: center;
+    align-items: flex-end;
     width: 20%;
     margin: 2em;
 }

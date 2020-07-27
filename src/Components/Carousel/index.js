@@ -3,8 +3,7 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
-  Row
+  CarouselIndicators
 } from 'reactstrap';
 import './styles.css';
 

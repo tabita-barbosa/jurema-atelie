@@ -8,7 +8,7 @@ const SobreNos = () => {
     return(
         <Container className="">
             <Row className="d-flex div-sobre">
-                <Col className="div-imagem col-m-6 justify-content-center align-items-center">
+                <Col className="div-imagem col-m-6 justify-content-center ">
                 <img src={Maos} className="sobre-imagem" alt="imagem com perspectiva de cima dos braços e mãos de duas pessoas, uma jovem e uma idosa, lavando as mãos em uma pia branca utilizando um dos sabonetes da Jurema Atelie"></img>
                 </Col>
                 <Col className="col-m-6">
