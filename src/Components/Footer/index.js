@@ -17,7 +17,7 @@ const Footer = () => {
                     </Button>
             </Row>
             <p className="texto-rodape"> Copyright © 2020 Todos os direitos reservados.</p>
-            <p className="texto-rodape">Feito com ❤️ por Tabita Barbosa.</p>
+            <p className="texto-rodape">Feito por Tabita Barbosa.</p>
         </Container>
     )
 }

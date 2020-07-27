@@ -4,17 +4,31 @@
 
 .carousel-item {
     font-size: 0.9em;
-    padding: 5em 6em 4em 6em;
+    padding: 4em 6em 2em 6em;
     color: rgb(170, 63, 55);
 }
 
 .carousel{
-    background-color: rgb(243, 231, 217);
     min-height: 40vh;
 }
 
-@media (max-width: 750px){
-    .carousel-inner {
-      min-height: 45vh;
+@media (max-width: 768px){
+    .carousel {
+      min-height: 25vh; 
+      /* 250px */
+    }
+}
+
+@media (max-width: 414px){
+    .carousel {
+        min-height: 48vh;
+        /* 350px */
+      }
+}
+
+@media (max-width: 320px){
+    .carousel{
+        min-height: 83vh;
+        /* 470px */
     }
 }

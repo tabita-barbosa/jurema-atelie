@@ -17,10 +17,10 @@ const NavBar = (props) => {
     return (
         <div>
             <Navbar className="navbar d-flex" expand="md" light>
-            <NavbarBrand className="nav-brand mr-auto" href="/">JUREMA ATELIÊ</NavbarBrand>
+            <NavbarBrand className="nav-brand" href="/">JUREMA ATELIÊ</NavbarBrand>
                 <NavbarToggler onClick={toogle}/>
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="m-auto nav-itens" navbar>
+                    <Nav className="m-auto nav-items" navbar>
                         <NavItem>
                             <NavLink className="nav-item" href="/">Home</NavLink>
                         </NavItem>

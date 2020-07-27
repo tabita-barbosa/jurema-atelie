@@ -14,6 +14,7 @@ class Home extends Component {
     render(){
         return(
             <>
+            <h5 className="texto-video">criatividade•amor•cura•abundância</h5>
             <div className="div-header">
                 <Video>
                 </Video>

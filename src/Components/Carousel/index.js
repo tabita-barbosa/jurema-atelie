@@ -3,7 +3,8 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators
+  CarouselIndicators,
+  Row
 } from 'reactstrap';
 import './styles.css';
 
@@ -51,6 +52,7 @@ const Carrousel = (props) => {
     setActiveIndex(newIndex);
   }
 
+
   const slides = items.map((item) => {
     return (
       <CarouselItem className="carousel-item"
@@ -60,7 +62,6 @@ const Carrousel = (props) => {
       >
         <p className="text-center">{item.text}</p>
         <p className="text-center">{item.author}</p>
-        {/* <CarouselCaption captionText={item.author} captionHeader={item.author}/> */}
       </CarouselItem>
     );
   });

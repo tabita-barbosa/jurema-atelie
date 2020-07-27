@@ -9,7 +9,7 @@ const SobreNos = () => {
         <Container className="">
             <Row className="d-flex div-sobre">
                 <Col className="div-imagem col-m-6 justify-content-center align-items-center">
-                <img src={Maos} className="sobre-imagem"></img>
+                <img src={Maos} className="sobre-imagem" alt="imagem com perspectiva de cima dos braços e mãos de duas pessoas, uma jovem e uma idosa, lavando as mãos em uma pia branca utilizando um dos sabonetes da Jurema Atelie"></img>
                 </Col>
                 <Col className="col-m-6">
                 <h5 className="sobre-titulo">Jurema Ateliê</h5>
@@ -19,7 +19,7 @@ const SobreNos = () => {
                 </Col>
             </Row>
             <Row className="justify-content-center">
-                <img className="logo-jurema" src={Logo}></img>
+                <img className="logo-jurema" src={Logo} alt="Logo da Jurema Atelie, que consiste em um meio sol, o nome do atelie e duas mãos em gesto de entrega desenhadas"></img>
             </Row>
         </Container>
     )

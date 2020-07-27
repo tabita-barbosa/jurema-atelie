@@ -6,8 +6,7 @@ import './styles.css';
 const Video = () => {
     return (
         <>
-        <h5 className="texto-video">criatividade•amor•cura•abundância</h5>
-        <div className= "div-video d-flex">
+        <div className= "div-video d-flex justify-content-center">
             <video src={video} width="250" height="320" controls="controls" autoplay loop />
         </div>
         </>
