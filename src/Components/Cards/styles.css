@@ -5,13 +5,15 @@
 
 .card {
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0em 1em;
+    /* offset-x, offset-y, blur-radius, spread-radius, color */
+    box-shadow: 5px 3px 1px 2px rgb(170, 63, 55);
 }
 
 .card-img-top{
     width: 90%; 
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0.5em auto 0em auto;
 }
 
